@@ -14,7 +14,11 @@ const { ListNode } = require('../extensions/list-node.js');
  * queue.getUnderlyingList() // returns { value: 3, next: null }
  */
 class Queue {
-
+  constructor(){
+    this.queue = null;
+    this.size = 0;
+  }
+  
   getUnderlyingList() {
     return this.queue;
   }
