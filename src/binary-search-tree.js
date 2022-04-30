@@ -56,7 +56,7 @@ class BinarySearchTree {
     return null;
   }
 
-  remove(/* data */) {
+  remove(data) {
     let node = this.find(data);
     if(node){
       let current = this.tree;
